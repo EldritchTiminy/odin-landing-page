@@ -1,4 +1,25 @@
+/* Font */
+@font-face {font-family: Roboto; src: url("./font/Roboto-Regular.ttf");}
+
+/* Universal Styling */
 * {
   padding: 0;
   margin: 0;
 }
+
+html {
+  font-family: Roboto, sans-serif;
+}
+
+/* Body Styling */
+
+/* Header Styling */
+
+/* Content Styling */
+/* - Hero Section Styling */
+/* - Information Section Styling */
+/* - Quote Section Styling */
+/* - Call Section Styling */
+
+
+/* Footer Styling */
