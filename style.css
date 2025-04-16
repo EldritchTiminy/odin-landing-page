@@ -114,7 +114,7 @@ body {
   align-items: center;
   color: #e5e7eb;
 }
-
+/* - Hero Text Section Styling */
 
 
 /* - Information Section Styling */
@@ -179,20 +179,43 @@ body {
   font-weight: 900;
   align-self: flex-end;
 }
-
+/* - Quote Section Styling */
 
 
 /* - Call Section Styling */
 .call {
-  background-color: #3882f6;
   color: #e5e7eb;
   flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.call-align {
+  flex: 0;
+  background-color: #3882f6;
+  margin: 104px 0;
+  min-width: 700px;
+  max-width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 48px 128px;
+  border-radius: 8px;
 }
 
 .call-head {
-  font-size: 18px;
+  font-size: 24px;
+  font-weight: 900;
+  margin-bottom: 8px;
 }
 
+.call-button {
+  padding: 8px 32px;
+  border: solid 2px white;
+  border-radius: 8px;
+}
+/* - Call Section Styling */
+/* Content Section Styling */
 
 
 /* Footer Styling */
@@ -203,3 +226,4 @@ body {
   display: flex;
   justify-content: center;
 }
+/* Footer Styling */
